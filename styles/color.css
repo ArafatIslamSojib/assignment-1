@@ -1,0 +1,224 @@
+/* font  */
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+  
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* main style */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+ /* shared color */
+ .text-head{
+    color: #4E47FF;
+ }
+ .btn-head{
+    background-color: #4E47FF;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+ }
+ .btn-head:hover{
+     background-color: #F3840E;
+    border: 1px solid black;
+ }
+.bg{
+    background-image: url('/B12A01-landing-launchpad/Assets/Hero-bg.png');
+}
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+nav li{
+    list-style: none;
+}
+.nav-title{
+    font-weight: 900;
+    font-size: 34px;
+}
+.heading{
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    padding: 64px 12px;
+    margin-bottom: 24px;
+}
+.center{
+    text-align: center;
+    padding: 64px 12px;
+}
+.btn-stay{
+    text-align: center;
+}
+.btn-stay:hover{
+    background-color: #F3840E;
+    border: 1px solid black;
+}
+
+.m2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 130px 15px;
+}
+.see{
+    font-size: 42px;
+    font-weight: 700;
+}
+.pr{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.50);
+}
+.img{
+    max-width: 100%;
+    border-radius: 48px;
+    margin-top: 16px;
+}
+.stats{
+    background-color: rgba(77, 71, 255, 0.10);
+    text-align: center;
+    /* padding: 80x 50px; */
+    border-radius: 24px;
+    padding: 10px 0px;
+}
+.box-stats{
+    display: flex;
+    justify-content: center;
+    gap: 158px;
+    margin-top: 19px;
+}
+.stextt{
+    font-size: 38px;
+    font-weight: 700;   
+}
+.stextm{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+.stextb{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 1px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.say{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.tsection{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    padding: 30px;
+    border: 1px solid #F2EDED;
+    width: 300px;
+}
+.card:hover{
+    border: 1px solid red;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* form */
+
+.formb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 93px;
+}
+.get{
+    font-size: 97px;
+    font-weight: 700;
+}
+form input{
+    height: 20px;
+    width: 497px;
+    border-radius: 10px;
+    display: block;
+    padding: 20px 32px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 19px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+form textarea{
+    height: 135px;
+    width: 497px;
+    border-radius: 10px;
+    display: block;
+    padding: 20px 32px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 19px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+form label{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.btn-get{
+    font-size: 16px;
+    height: 62px;
+    width: 565px;
+}
+.btn-get:hover{
+    background-color: #F3840E;
+    border: 1px solid black;
+}
+
+/* footer */
+.foot{
+    margin-top: 20px;
+    padding: 104px 455px;
+    text-align: center;
+}
+
+.footdiv{
+    font-weight: 900;
+    font-size: 100px;
+    color: #4E47FF;
+}
+.finish{
+    color: #8987A1;
+}
+a{
+    text-decoration: none;
+    color: #8987A1;
+}
+strong{
+    color: #8987A1;
+}
+span{
+    color: #8987a1ac;
+}
