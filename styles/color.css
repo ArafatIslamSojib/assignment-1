@@ -35,7 +35,7 @@
     border: 1px solid black;
  }
 .bg{
-    background-image: url('B12A01-landing-launchpad/Assets/Hero-bg.png');
+    background-image: url("/B12A01-landing-launchpad/Assets/Hero-bg.png");
 }
 /* nav style */
 nav{
